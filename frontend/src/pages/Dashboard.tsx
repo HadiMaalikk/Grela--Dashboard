@@ -42,7 +42,7 @@ const Dashboard = () => {
               2. px-6 pushes the content back IN to match the header width. 
               3. We use the SAME 'grid-cols-10' inside. */}
           <div className="bg-[#eeeeee] -mx-6 px-6 mt-5 border border-black min-h-[50px] h-auto p-2 w-auto flex items-center rounded-lg">
-            <div className="grid grid-cols-10 text-center w-full text-sm break-words">
+            <div className="grid grid-cols-10 place-items-center text-center w-full text-sm break-words">
               <p>01</p>
               <p>John Doe</p>
               <p>9876543210</p>
@@ -64,8 +64,8 @@ const Dashboard = () => {
             </div>
           </div>
 
-          <div className="bg-[#eeeeee] -mx-6 px-6 mt-5 border border-black min-h-[50px] h-auto p-2 w-auto flex items-center rounded-lg">
-            <div className="grid grid-cols-10 text-center w-full text-sm break-all">
+          <div className="bg-[#eeeeee] -mx-6 px-6 mt-5 border border-black min-h-[50px] h-auto p-2 w-auto flex justify-center items-center rounded-lg">
+            <div className="grid grid-cols-10 place-items-center text-center w-full text-sm break-words">
               <p>01</p>
               <p>John Doe</p>
               <p>9876543210</p>

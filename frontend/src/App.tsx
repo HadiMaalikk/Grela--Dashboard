@@ -1,7 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import Hero from "./pages/Hero";
 import Dashboard from "./pages/Dashboard";
-
 const App = () => {
   return (
     <div className="overflow-x-hidden">
